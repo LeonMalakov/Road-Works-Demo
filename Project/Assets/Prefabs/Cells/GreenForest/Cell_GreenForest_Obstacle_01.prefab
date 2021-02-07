@@ -1,0 +1,296 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4164219007724333972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6641132667786121171}
+  - component: {fileID: -8653414853626717321}
+  - component: {fileID: 6436433928454699969}
+  - component: {fileID: 6968767707614549289}
+  - component: {fileID: 3585061154532431427}
+  m_Layer: 0
+  m_Name: Cell_GreenForest_Obstacle_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6641132667786121171
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4164219007724333972}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5590816623320364253}
+  - {fileID: 5805942341125571997}
+  - {fileID: 4282170140230843751}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-8653414853626717321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4164219007724333972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10369062605c2a844a3b5e35bec63157, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _biome: 0
+--- !u!114 &6436433928454699969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4164219007724333972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a97782de9f850c340ad3ef82da06fc62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cell: {fileID: -8653414853626717321}
+  _sourceObject: {fileID: 4236271421458637583}
+  _normalObject: {fileID: 6296672343152180809}
+  _destroyedObject: {fileID: 1994120758750897918}
+--- !u!114 &6968767707614549289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4164219007724333972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f49cdf124b944c4d86557b1e79f5e0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cell: {fileID: -8653414853626717321}
+--- !u!136 &3585061154532431427
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4164219007724333972}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.7
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!1001 &774172603554909094
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6641132667786121171}
+    m_Modifications:
+    - target: {fileID: 6497762073341742651, guid: 7be4711593dacac4b9b54513de2dd978, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497762073341742651, guid: 7be4711593dacac4b9b54513de2dd978, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497762073341742651, guid: 7be4711593dacac4b9b54513de2dd978, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497762073341742651, guid: 7be4711593dacac4b9b54513de2dd978, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497762073341742651, guid: 7be4711593dacac4b9b54513de2dd978, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497762073341742651, guid: 7be4711593dacac4b9b54513de2dd978, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497762073341742651, guid: 7be4711593dacac4b9b54513de2dd978, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497762073341742651, guid: 7be4711593dacac4b9b54513de2dd978, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497762073341742651, guid: 7be4711593dacac4b9b54513de2dd978, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497762073341742651, guid: 7be4711593dacac4b9b54513de2dd978, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497762073341742651, guid: 7be4711593dacac4b9b54513de2dd978, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6763333255457830383, guid: 7be4711593dacac4b9b54513de2dd978, type: 3}
+      propertyPath: m_Name
+      value: Cell_GreenForest_Obstacle01(Lightmapped)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7be4711593dacac4b9b54513de2dd978, type: 3}
+--- !u!1 &6296672343152180809 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6763333255457830383, guid: 7be4711593dacac4b9b54513de2dd978, type: 3}
+  m_PrefabInstance: {fileID: 774172603554909094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5805942341125571997 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6497762073341742651, guid: 7be4711593dacac4b9b54513de2dd978, type: 3}
+  m_PrefabInstance: {fileID: 774172603554909094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2034446449276903819
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6641132667786121171}
+    m_Modifications:
+    - target: {fileID: 546980678938396533, guid: 90a4a19fe7bbb8a47b7bfc3537ff4c65, type: 3}
+      propertyPath: m_Name
+      value: Cell_GreenForest_Obstacle01Destroyed(Lightmapped)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2834625955547978988, guid: 90a4a19fe7bbb8a47b7bfc3537ff4c65, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2834625955547978988, guid: 90a4a19fe7bbb8a47b7bfc3537ff4c65, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2834625955547978988, guid: 90a4a19fe7bbb8a47b7bfc3537ff4c65, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2834625955547978988, guid: 90a4a19fe7bbb8a47b7bfc3537ff4c65, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2834625955547978988, guid: 90a4a19fe7bbb8a47b7bfc3537ff4c65, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2834625955547978988, guid: 90a4a19fe7bbb8a47b7bfc3537ff4c65, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2834625955547978988, guid: 90a4a19fe7bbb8a47b7bfc3537ff4c65, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2834625955547978988, guid: 90a4a19fe7bbb8a47b7bfc3537ff4c65, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2834625955547978988, guid: 90a4a19fe7bbb8a47b7bfc3537ff4c65, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2834625955547978988, guid: 90a4a19fe7bbb8a47b7bfc3537ff4c65, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2834625955547978988, guid: 90a4a19fe7bbb8a47b7bfc3537ff4c65, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 90a4a19fe7bbb8a47b7bfc3537ff4c65, type: 3}
+--- !u!1 &1994120758750897918 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 546980678938396533, guid: 90a4a19fe7bbb8a47b7bfc3537ff4c65, type: 3}
+  m_PrefabInstance: {fileID: 2034446449276903819}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4282170140230843751 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2834625955547978988, guid: 90a4a19fe7bbb8a47b7bfc3537ff4c65, type: 3}
+  m_PrefabInstance: {fileID: 2034446449276903819}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7554676016250947484
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6641132667786121171}
+    m_Modifications:
+    - target: {fileID: 2684439873092776769, guid: 7bb4fdad11cd75746b8aec91dfb7f1b3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2684439873092776769, guid: 7bb4fdad11cd75746b8aec91dfb7f1b3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2684439873092776769, guid: 7bb4fdad11cd75746b8aec91dfb7f1b3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2684439873092776769, guid: 7bb4fdad11cd75746b8aec91dfb7f1b3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2684439873092776769, guid: 7bb4fdad11cd75746b8aec91dfb7f1b3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2684439873092776769, guid: 7bb4fdad11cd75746b8aec91dfb7f1b3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2684439873092776769, guid: 7bb4fdad11cd75746b8aec91dfb7f1b3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2684439873092776769, guid: 7bb4fdad11cd75746b8aec91dfb7f1b3, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2684439873092776769, guid: 7bb4fdad11cd75746b8aec91dfb7f1b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2684439873092776769, guid: 7bb4fdad11cd75746b8aec91dfb7f1b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2684439873092776769, guid: 7bb4fdad11cd75746b8aec91dfb7f1b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917126994497332371, guid: 7bb4fdad11cd75746b8aec91dfb7f1b3, type: 3}
+      propertyPath: m_Name
+      value: Cell_GreenForest_Obstacle01Source(Lightmapped)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7bb4fdad11cd75746b8aec91dfb7f1b3, type: 3}
+--- !u!1 &4236271421458637583 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5917126994497332371, guid: 7bb4fdad11cd75746b8aec91dfb7f1b3, type: 3}
+  m_PrefabInstance: {fileID: 7554676016250947484}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5590816623320364253 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2684439873092776769, guid: 7bb4fdad11cd75746b8aec91dfb7f1b3, type: 3}
+  m_PrefabInstance: {fileID: 7554676016250947484}
+  m_PrefabAsset: {fileID: 0}

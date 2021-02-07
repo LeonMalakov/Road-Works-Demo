@@ -1,0 +1,15 @@
+{
+    "name": "WAL-Core-Editor",
+    "references": [
+        "GUID:8eab89b7bd5a4b840b997ea7c9ee22ea"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
